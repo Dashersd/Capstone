@@ -61,7 +61,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 $stmt->close();
                 $conn->close();
-
                 header("Location: dashboard.php");
                 ob_end_flush();
                 exit();

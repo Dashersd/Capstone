@@ -197,7 +197,7 @@ CREATE TABLE `students` (
   `belt_rank` varchar(20) NOT NULL,
   `discount` decimal(10,2) DEFAULT 0.00,
   `schedule` varchar(20) NOT NULL,
-  `date_enrolled` date DEFAULT curdate(),
+  `date_enrolled` date,
   `status` varchar(20) DEFAULT 'Active',
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
