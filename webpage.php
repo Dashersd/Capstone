@@ -9,7 +9,7 @@
     <title>D'MARSIANS TAEKWONDO GYM</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="webpage.css">
+    <link rel="stylesheet" href="Styles/webpage.css">
     <style>
     /* Mobile top navigation customization */
     @media (max-width: 767.98px) {
@@ -312,7 +312,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="webpage.js"></script>
+    <script src="Scripts/webpage.js"></script>
     <script>
     function renderMobileCarousel(posts, containerId, dotsId) {
         const container = document.getElementById(containerId);

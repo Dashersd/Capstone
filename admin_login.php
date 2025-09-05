@@ -8,7 +8,7 @@ ini_set('display_errors', 1);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super Admin Login - D'MARSIANS Taekwondo System</title>
-    <link rel="stylesheet" href="admin_login.css">
+    <link rel="stylesheet" href="Styles/admin_login.css">
 </head>
 <body>
     <div class="login-container">
